@@ -33,12 +33,13 @@ A conventional F1 weekend has three free practice sessions before qualifying and
 | --- | --- |
 | Shapiro–Wilk (position change) | W = 0.991, p = 0.004, so the data is not normal and rank-based tests are used |
 | Linear regression | R² = 0.26, MSE = 26.4 (about 5 positions of error) |
-| Practice vs. race position correlation | 0.5 overall, 0.6 conventional, 0.3 sprint |
+| Practice vs. race position correlation | 0.53 overall, 0.60 conventional, 0.32 sprint |
 | Spearman test | Significant in all three groups (p < 0.05) |
 | Mixed linear model | Practice position is a significant predictor; event format, laps completed and best lap time are not |
 
-<!-- Add a chart: save a plot from the notebook (e.g. the correlation heatmap) as heatmap.png, upload it, then keep the line below -->
-<!-- ![Correlation heatmap](heatmap.png) -->
+![Correlation heatmaps for all, conventional and sprint weekends](heatmap.png)
+
+*Practice position is the only variable that tracks race position, and the link is weakest on sprint weekends.*
 
 ## Conclusion
 
